@@ -120,10 +120,14 @@
        
     }
     .navbar{
-        z-index: 1000 !important;
+        position: fixed;
+        top: 0;
+        position: -webkit-sticky;
+        background: #FACABC;
+        z-index:10000;
     }
     .main_container_contact_content{
-        z-index: -1 !important;
+        position: fixed;
     }
 }
 @media screen and (max-width: 320px) {
