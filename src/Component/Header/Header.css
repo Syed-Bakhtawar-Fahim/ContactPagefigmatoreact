@@ -115,20 +115,6 @@
     .main_container_contact_content-subHeading > h1 {
         font-size: 1.6rem;
     }
-    .navbar-toggler{
-        z-index: 1000 !important;
-       
-    }
-    .navbar{
-        position: fixed;
-        top: 0;
-        position: -webkit-sticky;
-        background: #FACABC;
-        z-index:10000;
-    }
-    .main_container_contact_content{
-        position: fixed;
-    }
 }
 @media screen and (max-width: 320px) {
     .main_container_contact_content-subHeading > h1 {
