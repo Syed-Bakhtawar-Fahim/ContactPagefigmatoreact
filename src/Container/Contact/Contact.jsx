@@ -40,17 +40,17 @@ const Contact = () => {
                     <div>
                       <input type="radio" id="huey" name="Motor Vehicle" value="Motor Vehicle"
                       />
-                      <label for="Motor Vehicle">Motor Vehicle</label>
+                      <label htmlFor="Motor Vehicle">Motor Vehicle</label>
                     </div>
                     <div>
                       <input type="radio" id="Personal Property" name="Personal Property" value="Personal Property"
                       />
-                      <label for="Personal Property">Personal Property</label>
+                      <label htmlFor="Personal Property">Personal Property</label>
                     </div>
                     <div>
                       <input type="radio" id="Abatement/Exemptions" name="Abatement/Exemptions" value="Abatement/Exemptions"
                       />
-                      <label for="Abatement/Exemptions">Abatement/Exemptions</label>
+                      <label htmlFor="Abatement/Exemptions">Abatement/Exemptions</label>
                     </div>
 
                   </div>
@@ -63,17 +63,17 @@ const Contact = () => {
                     <div>
                       <input type="radio" id="huProperty Inspectioney" name="Property Inspection" value="Property Inspection"
                       />
-                      <label for="Property Inspection">Property Inspection</label>
+                      <label htmlFor="Property Inspection">Property Inspection</label>
                     </div>
                     <div>
                       <input type="radio" id="Commercial" name="Commercial" value="Commercial"
                       />
-                      <label for="Commercial">Commercial</label>
+                      <label htmlFor="Commercial">Commercial</label>
                     </div>
                     <div>
                       <input type="radio" id="Other" name="Other" value="Other"
                       />
-                      <label for="Other">Other</label>
+                      <label htmlFor="Other">Other</label>
                     </div>
                   </div>
                 </form>
@@ -142,6 +142,7 @@ const Contact = () => {
               {
                 assessors.map((info, index) =>
                   <Assessorinfo
+                    key={index}
                     title={info.title}
                     address={info.address}
                     phone={info.phone}
