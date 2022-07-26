@@ -128,18 +128,15 @@ ul {
 
 @media screen and (max-width: 425px) {
 
-    /* .footer-bottom{
-        height: 100px;
-        height: max-content;
-    } */
-
+ 
     .footer-bottom-content{
         display: flex;
         flex-direction: column;
         margin: 0%;
        
     }
-    /* .footer-bottom-links{
-        margin-top: 2px;
-    } */
+    
+    .main_container_footer-info{
+        margin-left: -20px;
+    }
 }
