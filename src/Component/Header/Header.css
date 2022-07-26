@@ -53,6 +53,7 @@
     cursor: pointer;
 }
 
+
 /* Navbar End */
 
 .main_container_contact_content{
@@ -113,6 +114,16 @@
 @media screen and (max-width: 425px) {
     .main_container_contact_content-subHeading > h1 {
         font-size: 1.6rem;
+    }
+    .navbar-toggler{
+        z-index: 1000 !important;
+       
+    }
+    .navbar{
+        z-index: 1000 !important;
+    }
+    .main_container_contact_content{
+        z-index: -1 !important;
     }
 }
 @media screen and (max-width: 320px) {

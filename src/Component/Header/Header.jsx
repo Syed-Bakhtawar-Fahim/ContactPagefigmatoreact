@@ -13,7 +13,7 @@ const Header = () => {
       <div className='main_container_contact'
       >
         <div className='main_container_navbar'>
-          <Navbar expand="lg">
+          <Navbar expand="lg"  sticky="top" className = "navbar">
             <Container>
               <Link to = "/">
                 <img src={Logo} alt="logo" width="130px" height="130px" className = "nav-img"/>

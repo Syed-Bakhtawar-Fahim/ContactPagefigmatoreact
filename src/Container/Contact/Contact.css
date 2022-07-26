@@ -183,6 +183,7 @@ label {
 @media screen and (max-width: 425px) { 
     .main_container_second_contact {
         margin: 10px;
+        padding: 10px;
     }
 }
 @media screen and (max-width: 375px) { 
