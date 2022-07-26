@@ -21,3 +21,9 @@ body {
   color: var(--dark-gray);
   opacity: 1;
 }
+
+::selection{
+  background-color: var(--Vivid-orange);
+  color: var(--white);
+
+}
